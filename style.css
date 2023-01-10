@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300&display=swap'); 
+
+:root{
+    --corprincipal: #1f6d9b;
+    --corsecundaria: #E5E5E5;
+    --cortitulo: #2a0c96;
+
+}
+
+body{
+    background: var(--corsecundaria);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho h1{
+    color: var(--cortitulo);
+}
+
+.cabecalho img{
+    max-width: 700;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content:right;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 900px;
+    height: 350px;
+}
+
+#input-texto{
+    display: flex;
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 0px;
+    text-transform: lowercase;
+}
+
+#output{
+    display: center;
+    flex-direction: column;
+    border: 3px;
+    border: 3px solid var(--cortitulo);
+    border-radius: 20px;
+    width: 350px;
+    height: 400 px;
+    margin-right: 3%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img{
+    max-width: 300px;
+    max-height: 300px;
+    width: 300px;
+    height: 300px;
+    margin-top: 8%;
+    margin-right: 20%;
+}
+
+.container-bnt button{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #09017c;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+
+}
+
+.btn-copiar{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+
+}
+
+.container-bnt button:hover{
+    border: 2px solid var(--corsecundaria);
+    transition: 0.5s all;
+
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background-color: var(--corprincipal);
+    color: var(--cortitulo)
+}
+
+.rodape h3{
+    font-size: 16px;
+
+}
+
+.rodape img{
+    display: auto;
+    align-items: top;
+    width: 200px;
+    height: 100px;
+    padding: center;
+    margin-top: 15px;
+   
+
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cortitulo);
+
+}
+
+.icons ion-icon:hover{
+    color: var(--corsecundaria);
+    
+}

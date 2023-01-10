@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e Codificador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/alura.png" type="image/x-icon">
+</head>
+<body>
+    
+<main class="main container">
+    <header class="cabecalho">
+        <img src="img/alura.png" alt="logo alura">
+        <h1> Mensagens Codificadas </h1>
+    </header>
+        
+    <div class="container-input">
+        <div class="input"> 
+        <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+        <p> <img src="img/info.svg"> Mas atenção! Apenas letras minúsculas e sem acento!</p>
+    </div>
+
+    <div id="output"> 
+        <img src="img/high-quality-products.svg" alt="logo alura">
+        <h2>Sua mensagem secreta aparecerá aqui! </h2>
+        <span>Digite seu texto para criar uma mensagem secreta ou desvenda-lá!</span>
+    </div>
+    </div>
+
+    <div class="buttons">
+        <div class="container-bnt">
+        <button onclick= "criptografar()" class="btn-criptografar"> Criptografar</button>
+        <button onclick= "descriptografar()" class="btn-descriptografar"> Descriptografar</button>
+        </div>
+        </div>
+    </main>
+
+    <footer class="rodape"> 
+        <div class="icons"> 
+        <a href="http://github.com/JanieFox"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="https://www.linkedin.com/in/janainasoul/"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <h3> Desenvolvido por Janaina</h3>
+    </footer>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"> </script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html>
